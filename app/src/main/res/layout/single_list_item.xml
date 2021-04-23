@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical"
+    tools:context=".SingleMenuItemActivity">
+
+    <TextView android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+
+    <TextView android:id="@+id/name_label"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="25dip"
+              android:textStyle="bold"
+              android:text="Helooooo"
+              android:paddingTop="10dip"
+              android:paddingBottom="10dip"
+              android:textColor="#dc6800"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#ffffff"
+        />
+
+    <TextView android:id="@+id/description_label"
+              android:layout_width="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+                android:layout_height="wrap_content"
+                android:text="Worlddd"
+        android:textSize="25dip"
+
+              android:textColor="#dc6800"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView android:id="@+id/cost_label"
+        android:layout_width="fill_parent"
+        android:textColor="#dc6800"
+        android:textSize="25dip"
+        android:text="ashish"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dip"
+        />
+
+
+    <Button
+        android:id="@+id/button_map"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+
+        android:textSize="25dip"
+        android:layout_marginTop="20dip"
+
+        android:text="Show location on Maps"
+
+    />
+
+
+  </LinearLayout>
+
+  <!--RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/eq2" />
+
+    <TextView
+        android:id="@+id/myImageViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:text="Hello"
+        android:textColor="#00ff00" /-->
+
+  <!--TextView android:id="@+id/name_label"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="25dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:textColor="#dc6800"/>
+
+  <TextView android:id="@+id/description_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#acacac"/>
+
+  <TextView android:id="@+id/cost_label"
+      		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content"
+      		android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_map"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Open Maps"
+
+        /-->
+<!--/RelativeLayout-->
